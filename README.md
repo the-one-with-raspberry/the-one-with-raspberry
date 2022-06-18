@@ -5,7 +5,7 @@
 - ![Youtube](https://emojipedia-us.s3.amazonaws.com/content/2020/04/05/yt.png) https://www.youtube.com/channel/UCxGHpsV2VBI4fNgM7VMnflg
 
 a cool script that i wrote:
-```
+```js
 function mapCharStringToJSON(string) {
     const strCharArray = string.split('');
     let JSONobj = new Object();
