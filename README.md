@@ -8,7 +8,7 @@ a cool script that i wrote:
 ```js
 function mapCharStringToJSON(string) {
     const strCharArray = string.split('');
-    let JSONobj = new Object();
+    let JSONobj = {};
     let i = 0;
     for (let char of strCharArray) {
         JSONobj[char] = i;
